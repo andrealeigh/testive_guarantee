@@ -44,3 +44,31 @@
 
 
 /* styles for testive guarantee page */
+
+.guarantee-page {
+    @include flex;
+    @include flex-direction(column);
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.guarantee-hero-section {
+    @include flex;
+    @include flex-direction(column);
+    @include flex-justify-content(center);
+    background-color: #2c3e50;
+    padding: 100px;
+    .guarantee-hero-header {
+        color: #ffffff;
+        font-size: 42px;
+        margin: 0 auto;
+        max-width: 805px;
+        text-align: center;
+    }
+    .guarantee-hero-emphasis {
+        color: #29abe2;
+        font-weight: 700;
+    }
+}
