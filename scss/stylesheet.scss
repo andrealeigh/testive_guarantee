@@ -155,7 +155,7 @@
     }
 }
 
-.guarantee-score-improvement {
+.guarantee-score-improvement-section {
     @include flex;
     @include flex-direction(column);
     @include flex-justify-content(center);
@@ -229,4 +229,75 @@
             transition: all .5s;
         }
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .guarantee-hero-section {
+        padding: 100px 4%;
+    }
+    .guarantee-overview-section {
+        padding: 100px 4%;
+    }
+    .guarantee-score-improvement-section {
+        padding: 100px 4%;
+    }
+    .guarantee-money-back-section {
+        padding: 100px 4%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .guarantee-hero-section {
+        padding: 50px 4%;
+        .guarantee-hero-header {
+            font-size: 32px;
+            max-width: 460px;
+        }
+    }
+    .guarantee-overview-section {
+        padding: 50px 4%;
+        .guarantee-overview-blurb {
+            font-size: 16px;
+        }
+    }
+    .guarantee-details-section {
+        padding: 50px 4%;
+        .guarantee-programs-header {
+            font-size: 18px;
+        }
+        .guarantee-programs-list-item {
+            font-size: 14px;
+        }
+    }
+    .guarantee-score-improvement-section {
+        padding: 50px 4%;
+        .guarantee-score-improvement-blurb {
+            font-size: 18px;
+        }
+        .guarantee-score-improvement-list {
+            max-width: 605px;
+            font-size: 14px;
+        }
+    }
+    .guarantee-money-back-section {
+        padding: 50px 4%;
+        .guarantee-money-back-blurb {
+            font-size: 19px;
+            max-width: 600px;
+        }
+        .guarantee-cta-blurb {
+            font-size: 19px;
+            max-width: 460px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+.guarantee-hero-section {
+    padding: 20px 4%;
+    .guarantee-hero-header {
+        font-size: 20px;
+        max-width: 190px;
+    }
+}
 }

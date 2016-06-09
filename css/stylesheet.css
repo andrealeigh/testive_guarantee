@@ -129,7 +129,7 @@
   .guarantee-details-section .guarantee-programs-list-item {
     margin: 0 0 10px 35px; }
 
-.guarantee-score-improvement {
+.guarantee-score-improvement-section {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: -moz-flex;
@@ -143,22 +143,22 @@
   -moz-justify-content: center;
   justify-content: center;
   padding: 50px 150px; }
-  .guarantee-score-improvement .guarantee-score-improvement-header {
+  .guarantee-score-improvement-section .guarantee-score-improvement-header {
     border-bottom: solid 1px #eaeaea;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 15px;
     padding-bottom: 5px; }
-  .guarantee-score-improvement .guarantee-score-improvement-blurb {
+  .guarantee-score-improvement-section .guarantee-score-improvement-blurb {
     text-align: center;
     font-size: 20px;
     margin-bottom: 20px; }
-  .guarantee-score-improvement .guarantee-score-improvement-list {
+  .guarantee-score-improvement-section .guarantee-score-improvement-list {
     position: relative;
     margin: 0 auto;
     max-width: 800px; }
-    .guarantee-score-improvement .guarantee-score-improvement-list li:before {
+    .guarantee-score-improvement-section .guarantee-score-improvement-list li:before {
       background-image: url("../images/checkmark-blue.svg");
       background-size: contain;
       background-repeat: no-repeat;
@@ -168,9 +168,9 @@
       margin-top: 5px;
       position: absolute;
       width: 13px; }
-  .guarantee-score-improvement .guarantee-score-improvement-list-item {
+  .guarantee-score-improvement-section .guarantee-score-improvement-list-item {
     margin: 0 0 10px 35px; }
-  .guarantee-score-improvement .guarantee-score-improvement-emphasis {
+  .guarantee-score-improvement-section .guarantee-score-improvement-emphasis {
     font-weight: 700; }
 
 .guarantee-money-back-section {
@@ -219,3 +219,57 @@
       border: 2px solid #f7931e;
       color: #f7931e;
       transition: all .5s; }
+
+@media only screen and (max-width: 1000px) {
+  .guarantee-hero-section {
+    padding: 100px 4%; }
+
+  .guarantee-overview-section {
+    padding: 100px 4%; }
+
+  .guarantee-score-improvement-section {
+    padding: 100px 4%; }
+
+  .guarantee-money-back-section {
+    padding: 100px 4%; } }
+@media only screen and (max-width: 870px) {
+  .guarantee-hero-section {
+    padding: 50px 4%; }
+    .guarantee-hero-section .guarantee-hero-header {
+      font-size: 32px;
+      max-width: 460px; }
+
+  .guarantee-overview-section {
+    padding: 50px 4%; }
+    .guarantee-overview-section .guarantee-overview-blurb {
+      font-size: 16px; }
+
+  .guarantee-details-section {
+    padding: 50px 4%; }
+    .guarantee-details-section .guarantee-programs-header {
+      font-size: 18px; }
+    .guarantee-details-section .guarantee-programs-list-item {
+      font-size: 14px; }
+
+  .guarantee-score-improvement-section {
+    padding: 50px 4%; }
+    .guarantee-score-improvement-section .guarantee-score-improvement-blurb {
+      font-size: 18px; }
+    .guarantee-score-improvement-section .guarantee-score-improvement-list {
+      max-width: 605px;
+      font-size: 14px; }
+
+  .guarantee-money-back-section {
+    padding: 50px 4%; }
+    .guarantee-money-back-section .guarantee-money-back-blurb {
+      font-size: 19px;
+      max-width: 600px; }
+    .guarantee-money-back-section .guarantee-cta-blurb {
+      font-size: 19px;
+      max-width: 460px; } }
+@media only screen and (max-width: 500px) {
+  .guarantee-hero-section {
+    padding: 20px 4%; }
+    .guarantee-hero-section .guarantee-hero-header {
+      font-size: 20px;
+      max-width: 190px; } }
