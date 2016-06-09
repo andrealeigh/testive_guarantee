@@ -29,7 +29,7 @@
   -moz-justify-content: center;
   justify-content: center;
   background-color: #2c3e50;
-  padding: 100px; }
+  padding: 100px 10%; }
   .guarantee-hero-section .guarantee-hero-header {
     color: #ffffff;
     font-size: 42px;
@@ -53,7 +53,7 @@
   -ms-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
-  padding: 100px 150px; }
+  padding: 100px 11.8%; }
   .guarantee-overview-section .guarantee-overview-header {
     border-bottom: solid 1px #eaeaea;
     font-size: 24px;
@@ -88,7 +88,7 @@
   .guarantee-details-section .guarantee-overview-header {
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     text-align: center; }
   .guarantee-details-section .guarantee-testive-programs {
     display: -ms-flexbox;
@@ -142,7 +142,7 @@
   -ms-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
-  padding: 50px 150px; }
+  padding: 50px 11.8%; }
   .guarantee-score-improvement-section .guarantee-score-improvement-header {
     border-bottom: solid 1px #eaeaea;
     font-size: 24px;
@@ -188,20 +188,20 @@
   justify-content: center;
   background-color: #2c3e50;
   color: #ffffff;
-  padding: 75px; }
+  padding: 75px 5.8%; }
   .guarantee-money-back-section .guarantee-money-back-blurb {
     border-bottom: solid 1px #eaeaea;
     font-size: 24px;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 20px auto;
     max-width: 780px;
-    padding: 15px;
+    padding-bottom: 20px;
     text-align: center; }
   .guarantee-money-back-section .guarantee-money-back-blurb-emphasis {
     color: #f7931e;
     font-weight: 700; }
   .guarantee-money-back-section .guarantee-cta-blurb {
     font-size: 24px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 35px auto;
     max-width: 600px;
     text-align: center; }
   .guarantee-money-back-section .guarantee-cta-button {
@@ -236,8 +236,8 @@
   .guarantee-hero-section {
     padding: 50px 4%; }
     .guarantee-hero-section .guarantee-hero-header {
-      font-size: 32px;
-      max-width: 460px; }
+      font-size: 28px;
+      max-width: 534px; }
 
   .guarantee-overview-section {
     padding: 50px 4%; }
@@ -272,4 +272,55 @@
     padding: 20px 4%; }
     .guarantee-hero-section .guarantee-hero-header {
       font-size: 20px;
-      max-width: 190px; } }
+      max-width: 190px; }
+
+  .guarantee-overview-section {
+    padding: 20px 4%; }
+    .guarantee-overview-section .guarantee-overview-header {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    .guarantee-overview-section .guarantee-overview-blurb-emphasis {
+      font-size: 16px; }
+    .guarantee-overview-section .guarantee-overview-blurb {
+      font-size: 14px; }
+
+  .guarantee-details-section {
+    padding: 20px 4%; }
+    .guarantee-details-section .guarantee-overview-header {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    .guarantee-details-section .guarantee-testive-programs {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      -moz-flex-direction: column;
+      flex-direction: column; }
+    .guarantee-details-section .guarantee-programs-header {
+      font-size: 18px; }
+    .guarantee-details-section .guarantee-programs-list-item {
+      font-size: 14px; }
+
+  .guarantee-score-improvement-section {
+    padding: 20px 4%; }
+    .guarantee-score-improvement-section .guarantee-score-improvement-header {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    .guarantee-score-improvement-section .guarantee-score-improvement-blurb {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 10px; }
+
+  .guarantee-money-back-section {
+    padding: 20px 4%; }
+    .guarantee-money-back-section .guarantee-money-back-blurb {
+      font-size: 16px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      text-align: left; }
+    .guarantee-money-back-section .guarantee-cta-blurb {
+      font-size: 16px;
+      margin-bottom: 20px;
+      text-align: left; }
+    .guarantee-money-back-section .guarantee-cta-button {
+      font-size: 14px;
+      padding: 10px;
+      width: 150px; } }
